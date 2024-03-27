@@ -13,14 +13,13 @@
 - [G. Warranty](#g-warranty)
 - [H. FAQ](#h-faq)
 
-
 ## A. Introduction
 
 ![Overview](/img/overview.png)
 
 ### Problem
 
-Long time ago, i was new in field of full stack developer. My stack is laravel react, i know little bit of laravel and react.
+Long time ago, i was new in field of full stack developer. My tech stack is laravel react, i know little bit of laravel and react.
 
 I don't know the best practice, and functions that react and laravel already have to do some logic.
 
@@ -32,7 +31,7 @@ The laravel and react, have a lot of features and helper functions. and ofcourse
 
 The problem is we have to read **a lot** of the documentation so we understand the best practice.
 
-### Solutions 
+### Solutions
 
 #### Approach
 
@@ -50,61 +49,146 @@ Maybe you are project manager that also want this thing, so you can easily expla
 
 I will make solid laravel react starter kit with includes many amazing component.
 
-## B. Todo
+## B. Development Aspect
+
+### Philosophy
+
+Make it simple, easy to learn and teach to your teams, real production case.
+
+### Integration
+
+What you will do if you want to implement some integration into other platform?
+
+find the documentation.
+
+### Security
+
+JWT Example
+
+### Maintenance
+
+I keep this package designed to be simple, less dependencies.
+
+### Testing
+
+The purpose of testing is to make sure all function work correctly time after time and feature after feature implemented.
+
+**Common Problem:**
+
+The case is when you try to implement next feature (`X`) sometimes the existing feature (`Y`) is broken.
+
+What you will do ? fix the `Y` feature, then checking manually all other features?
+
+Stop, don't manually check the functionality.
+
+Making automatic testing for laravel is high labour cost.
+
+Making test code for backend is difficult when it comes with many posibilities of data modification, how you can make test case for that? its so hard.
+
+The test case is like this.
+
+```
+some value -> function -> expect to be
+```
+
+In this package i decide to make testing based on the API output, Since, the frontend (react) and backend (laravel) is connected by API.
+
+Then how the programmer making test case? 
+
+First make sure now is the function is correct.
+
+Then, They can just doing many interactions click button, fill forms, etc, on app ui. and the test case is generated automatically.
+
+```js
+[
+  {// Action 1
+    send: {
+      url:"/api/v1/some_service?q=data that some button send to laravel api service",
+      method:"GET",
+    }
+    received: "data that frontend received from laravel api service"
+  },
+  {// Action 2
+    send: {
+      url:"/api/v1/form",
+      method:"POST",
+      data:"data that some form send to laravel api service"
+    }
+    received:"data that frontend received from laravel api service"
+  },
+  // Other user interactions.
+]
+```
+
+Then when we want to do testing using jest library, my code will doing send request based on the test case
+
+```js
+
+const res = sent to server with information testcase.send
+
+expect(res).tobe(testcase.send.received);
+```
+
+With that method and sequentially doing actions, so the test case will don't care about the data changes, in the database. but just give attention into the final output of the APIs.
+
+The finall output of the APIs with correct sequentially actions is represent your function inside laravel is working properly.
+
+<br>
+<br>
+
+## C. Todo
 
 - [ ] Make demo.
 
-
-
 <br>
 <br>
 
-## C. Code
+## D. Code
+
+In the demo website you will see only the frontend.
 
 Once you buy you will get inside my [private repo Laravel React Starter Kit PRO](https://github.com/Web-XR-AI-lab/laravel-react-starter-kit-pro)
 
-
 <br>
 <br>
 
-
-## D. Changelog
+## E. Changelog
 
 Changelog contains information about new feature, improve accuracy, fix bug, and what you should do when the version is update.
 
 See [CHANGELOG.md](CHANGELOG.md)
 
-
 <br>
 <br>
 
+## F. Disclaimer & Warranty
 
-## E. Disclaimer
-
-There's no refund, just cancel your sponsorship.
-
-
-<br>
-<br>
-
-
-## F. Warranty
+There's no refund, just cancel your subscription in github sponsors menu.
 
 I love feedback from my customers. You can write on the issue tab so when i have time i can try to solve that and deliver for the next update.
 
-
 <br>
 <br>
 
-## H. FAQ
+## G. FAQ
 
-<details>
-  <summary>Why it's expensive? Why it's not opensource package?</summary>
-  
-  <br/>
+**Why it's expensive? Why it's not opensource package?**
 
 We need funding to make this starter kit always maintened. No worry, i make the price is cheap $3 USD monthly. its just price of a coffee.
 
-</details>
+**This package will update the dependencies every?**
+
+Monthly
+
+**Just ask me what question you will ask**
+
+<!-- <details>
+  <summary></summary>
+
+  <br/>
+
+Yes it is, i
+
+</details> -->
 
 <br/>
