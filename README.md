@@ -72,17 +72,34 @@ Provide some example for authentications and securing laravel.
 
 ### Maintenance
 
-I keep this package designed to be simple, less dependencies, designed for making common website.
-
-Always updated with current version. This starter kit is keeps to its latest version when at the end of the month. (monthly update)
+I keep this package designed to be simple, less dependencies, designed for making common website. Always updated with current version. This starter kit is keeps to its latest version when at the end of the month. (monthly update)
 
 Front end main dependencies:
 
 - [React js](https://react.dev/)
+
+React offer reuseable component and good interactifity compares to other old js library like [jquery](https://jquery.com/). react has drawback when the programmer is new in react, they don't know about the react rerender and it can resulting a slow app, lag, or maybe memory leak. Again the experience is needed when deal with react.
+
 - [Material UI](https://mui.com)
-- [Editor js](https://editorjs.io/)
+
+Material ui is widely used, good foundation for frontend, offer very good best practice.
+
 - [Tailwind CSS](https://tailwindcss.com)
-- [Next js](https://nextjs.org) (we have starter kit with next js version)
+
+Tailwind offer good ui when you still thing the material ui is not your style.
+
+- [Editor js](https://editorjs.io/)
+
+Sometimes we need to implement editor that can, do like CMS in wordpress. That can edit long article with good user experience. How can we achieve this in react and laravel? Many options is available like [CKeditor](https://ckeditor.com/) and other. i do research the [Editor js](https://editorjs.io/) is better user experience when we try to make long article content.
+
+- [Next js](https://nextjs.org) 
+
+The our basic stack is laravel and react (client-side rendering). Recently i have project that must do hard competition in SEO. The Server Side Rendering (SSR) is must be used.
+
+So i combine the next js(offer SSR capability), react js, laravel. also this is exist draw back. your hosting must support for node js hosting, make sure you check the hosting specification.
+
+(we have starter kit with next js version)
+
 
 Backend main dependencies:
 
@@ -103,19 +120,13 @@ What you will do ? fix the `Y` feature, then checking manually all other feature
 
 Making automatic testing for laravel is high labour cost. Making test code for backend is difficult when it comes with many posibilities of data modification, how you can make test case for that? its so hard.
 
-The test case is something like this.
-
-```
-some value -> function -> expect to be
-```
-
 In this package i decide to make testing based on the API output, Since, the frontend (react) and backend (laravel) is connected by API.
 
 **Then how you can making test case?**
 
-First make sure now is the function is correct.
+1. First make sure (now) all the feature is correct
 
-Then, They can just doing many interactions click button, fill forms, etc, on app ui. and the test case is generated automatically.
+2. Then, They can just doing many interactions click button, fill forms, etc, on app ui. and the test case is generated automatically.
 
 <details>
   <summary>Show generated test case</summary>
@@ -144,18 +155,17 @@ Then, They can just doing many interactions click button, fill forms, etc, on ap
 ```
 </details>
 
-Then when we want to do testing using [jest library](https://jestjs.io/), my code will doing send request based on the test case
+3. Then when we want to do testing using [jest library](https://jestjs.io/), My code will doing send request based on the test case. Just run the `npm run test` 
 
 ```js
-
-const res = sent to server with information testcase.send
+const res = // sent to server with information testcase.send
 
 expect(res).tobe(testcase.send.received);
 ```
 
 With that method and sequentially doing actions, so the test case will don't care about the data changes, in the database. but just give attention into the final output of the APIs.
 
-The finall output of the APIs with correct sequentially actions is represent your function inside laravel is working properly.
+4. The finall output of the APIs (response) with correct data and sequentially executed is representing your function inside laravel is working properly. Now the all features have been checked automatically and 100% working so the app ready to be deliver into production.
 
 <br>
 <br>
