@@ -44,6 +44,8 @@ Maybe you are project manager that also want this thing, so you can easily expla
 
 #### Conclusion
 
+![Project Foundation](/img/foundation.png)
+
 I will make solid laravel react starter kit with includes many amazing component.
 
 ## B. Development Aspect
@@ -54,12 +56,15 @@ Make it simple, easy to learn and teach to your teams, real production case.
 
 ### Integration
 
-Provide best practice to make the data APIs
+Provide best practice to make the data APIs. 
 
 - Routing name
 - Well route grouping
 - Handling Form Request (CRUD) from the frontend
 - Traits
+- Ready make email verification, forgot password. you just setting the SMTP (tutorial is included in the readme on private repo)
+- We need more AI ... in this package has example of using open ai api and the elevenlabs (text-to-speech services) the laravel is act as forwarder to keeps the secret key is secure.
+
 
 ### Security
 
@@ -74,34 +79,40 @@ Provide some example for authentications and securing laravel.
 
 I keep this package designed to be simple, less dependencies, designed for making common website. Always updated with current version. This starter kit is keeps to its latest version when at the end of the month. (monthly update)
 
-Front end main dependencies:
+**Front end main dependencies:**
 
 - [React js](https://react.dev/)
 
-React offer reuseable component and good interactifity compares to other old js library like [jquery](https://jquery.com/). react has drawback when the programmer is new in react, they don't know about the react rerender and it can resulting a slow app, lag, or maybe memory leak. Again the experience is needed when deal with react.
+  React offer reuseable component and good interactifity compares to other old js library like [jquery](https://jquery.com/). react has drawback when the programmer is new in react, they don't know about the react rerender and it can resulting a slow app, lag, or maybe memory leak. Again the experience is needed when deal with react.
 
 - [Material UI](https://mui.com)
 
-Material ui is widely used, good foundation for frontend, offer very good best practice.
+  Material ui is widely used, good foundation for frontend, offer very good best practice.
 
 - [Tailwind CSS](https://tailwindcss.com)
 
-Tailwind offer good ui when you still thing the material ui is not your style.
+  Tailwind offer good ui when you still thing the material ui is not your style.
 
 - [Editor js](https://editorjs.io/)
 
-Sometimes we need to implement editor that can, do like CMS in wordpress. That can edit long article with good user experience. How can we achieve this in react and laravel? Many options is available like [CKeditor](https://ckeditor.com/) and other. i do research the [Editor js](https://editorjs.io/) is better user experience when we try to make long article content.
+  Sometimes we need to implement editor that can, do like CMS in wordpress. That can edit long article with good user experience. How can we achieve this in react and laravel? Many options is available like [CKeditor](https://ckeditor.com/) and other. i do research the [Editor js](https://editorjs.io/) is better user experience when we try to make long article content.
+
+- [Apexcharts](https://apexcharts.com)
+
+  Apexcharts is a good choice for displaying your charts.
 
 - [Next js](https://nextjs.org) 
 
-The our basic stack is laravel and react (client-side rendering). Recently i have project that must do hard competition in SEO. The Server Side Rendering (SSR) is must be used.
+  The our basic stack is laravel and react (client-side rendering). Recently i have project that must do hard competition in SEO. The Server Side Rendering (SSR) is must be used.
 
-So i combine the next js(offer SSR capability), react js, laravel. also this is exist draw back. your hosting must support for node js hosting, make sure you check the hosting specification.
+  So i combine the next js(offer SSR capability), react js, laravel. also this is exist draw back. your hosting must support for node js hosting, make sure you check the hosting specification.
 
-(we have starter kit with next js version)
+  We have starter kit with next js version
 
 
-Backend main dependencies:
+**Backend main dependencies:**
+
+- [php-open-source-saver/jwt-auth](https://github.com/PHP-Open-Source-Saver/jwt-auth)
 
 - [php-open-source-saver/jwt-auth](https://github.com/PHP-Open-Source-Saver/jwt-auth)
 
@@ -128,42 +139,44 @@ In this package i decide to make testing based on the API output, Since, the fro
 
 2. Then, They can just doing many interactions click button, fill forms, etc, on app ui. and the test case is generated automatically.
 
-<details>
-  <summary>Show generated test case</summary>
+    <details>
+      <summary>Show generated test case</summary>
 
-  <br/>
+      <br/>
 
-```js
-[
-  {// Action 1
-    send: {
-      url:"/api/v1/some_service?q=data that some button send to laravel api service",
-      method:"GET",
-    }
-    received: "data that frontend received from laravel api service"
-  },
-  {// Action 2
-    send: {
-      url:"/api/v1/form",
-      method:"POST",
-      data:"data that some form send to laravel api service"
-    }
-    received:"data that frontend received from laravel api service"
-  },
-  // Other user interactions.
-]
-```
-</details>
+    ```js
+    [
+      {// Action 1
+        send: {
+          url:"/api/v1/some_service?q=data that some button send to laravel api service",
+          method:"GET",
+        }
+        received: "data that frontend received from laravel api service"
+      },
+      {// Action 2
+        send: {
+          url:"/api/v1/form",
+          method:"POST",
+          data:"data that some form send to laravel api service"
+        }
+        received:"data that frontend received from laravel api service"
+      },
+      // Other user interactions.
+    ]
+    ```
+    </details>
+
+<br/>
 
 3. Then when we want to do testing using [jest library](https://jestjs.io/), My code will doing send request based on the test case. Just run the `npm run test` 
 
-```js
-const res = // sent to server with information testcase.send
+    ```js
+    const res = // sent to server with information testcase.send
 
-expect(res).tobe(testcase.send.received);
-```
+    expect(res).tobe(testcase.send.received);
+    ```
 
-With that method and sequentially doing actions, so the test case will don't care about the data changes, in the database. but just give attention into the final output of the APIs.
+    With that method and sequentially doing actions, so the test case will don't care about the data changes, in the database. but just give attention into the final output of the APIs.
 
 4. The finall output of the APIs (response) with correct data and sequentially executed is representing your function inside laravel is working properly. Now the all features have been checked automatically and 100% working so the app ready to be deliver into production.
 
@@ -209,7 +222,7 @@ I love feedback from my customers. You can write on the issue tab so when i have
 
 **Why it's expensive? Why it's not opensource package?**
 
-We need funding to make this starter kit always maintained. No worry, i make the price is cheap $3 USD monthly. its just price of a coffee.
+We need funding to make this starter kit always maintained. No worry, i make the price is cheap $5 USD monthly. its just price of a coffee.
 
 **This package will update the dependencies every?**
 
