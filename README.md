@@ -2,6 +2,8 @@
 
 ![Laravel React Starter Kit PRO Banner](/img/banner.webp)
 
+Premium toolkit designed for full-stack web development, offering a streamlined approach to integrating Laravel with React. It includes updated dependencies, best practices, and security implementations, making it suitable for developers at any level looking for a reliable project foundation.
+
 ## Docs for v1.0.0
 
 **Table Of Contents**
@@ -52,18 +54,40 @@ Make it simple, easy to learn and teach to your teams, real production case.
 
 ### Integration
 
-What you will do if you want to implement some integration into other platform?
+Provide best practice to make the data APIs
 
-find the documentation.
+- Routing name
+- Well route grouping
+- Handling Form Request (CRUD) from the frontend
+- Traits
 
 ### Security
 
-- Provide some example for to securing laravel,
-- Using JWT(Json Web Token)
+Provide some example for authentications and securing laravel.
+
+- Using JWT (Json Web Token)
+- Throthling (rate limiter)
+- Fingerprint login
+- Pin login
 
 ### Maintenance
 
 I keep this package designed to be simple, less dependencies, designed for making common website.
+
+Always updated with current version. This starter kit is keeps to its latest version when at the end of the month. (monthly update)
+
+Front end main dependencies:
+
+- [React js](https://react.dev/)
+- [Material UI](https://mui.com)
+- [Editor js](https://editorjs.io/)
+- [Tailwind CSS](https://tailwindcss.com)
+- [Next js](https://nextjs.org) (we have starter kit with next js version)
+
+Backend main dependencies:
+
+- [php-open-source-saver/jwt-auth](https://github.com/PHP-Open-Source-Saver/jwt-auth)
+
 
 ### Testing
 
@@ -93,6 +117,11 @@ First make sure now is the function is correct.
 
 Then, They can just doing many interactions click button, fill forms, etc, on app ui. and the test case is generated automatically.
 
+<details>
+  <summary>Show generated test case</summary>
+
+  <br/>
+
 ```js
 [
   {// Action 1
@@ -113,6 +142,7 @@ Then, They can just doing many interactions click button, fill forms, etc, on ap
   // Other user interactions.
 ]
 ```
+</details>
 
 Then when we want to do testing using [jest library](https://jestjs.io/), my code will doing send request based on the test case
 
@@ -132,7 +162,8 @@ The finall output of the APIs with correct sequentially actions is represent you
 
 ## C. Todo
 
-- [ ] Make demo.
+- [ ] Make demo
+- [ ] Make video tutorial
 
 <br>
 <br>
@@ -148,7 +179,7 @@ Once you buy you will get inside my [private repo Laravel React Starter Kit PRO]
 
 ## E. Changelog
 
-Changelog contains information about new feature, improve accuracy, fix bug, and what you should do when the version is update.
+Changelog contains information about new amazing feature, fix bug, breaking changes information, and what you should do when the version is update.
 
 See [CHANGELOG.md](CHANGELOG.md)
 
@@ -175,6 +206,10 @@ We need funding to make this starter kit always maintained. No worry, i make the
 Monthly
 
 **Just ask me what question you will ask**
+
+Send me message via:
+
+Discord: [albirrkarim](https://discord.com/channels/@me/884043164908929034)
 
 <!-- <details>
   <summary></summary>
