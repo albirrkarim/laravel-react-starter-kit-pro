@@ -32,7 +32,7 @@ The laravel and react, have a lot of features and helper functions. and ofcourse
 
 1. The first solution is use chat gpt, copy the code you have made and ask chat gpt to modify it into best practice. this method you will be open and close chat gpt offer time. (it wasting time)
 
-2. Using Template and Boilerplate. I also use paid template. (ensuring they maintain the dependencies update). How about boilerplate? many boilerplate is just opensource repo. that is not well maintenance. outdated dependencies, outdated integration method. etc ...
+2. Using Template and Boilerplate. I also use paid template. (ensuring they maintain the dependencies update). How about boilerplate? many boilerplate is just opensource repo. that is not well maintenance. outdated dependencies, outdated integration method. etc.
 
 #### Finally
 
@@ -42,11 +42,7 @@ So i made this starter kit to ensure the the dependencies is maintained, integra
 
 Maybe you are project manager that also want this thing, so you can easily explain to your team about your project and the tech stack do you use using our overview.
 
-#### Conclusion
-
 ![Project Foundation](/img/foundation.png)
-
-I will make solid laravel react starter kit with includes many amazing component.
 
 ## B. Development Aspect
 
@@ -58,13 +54,25 @@ Make it simple, easy to learn and teach to your teams, real production case.
 
 Provide best practice to make the data APIs. 
 
-- Routing name
-- Well route grouping
-- Handling Form Request (CRUD) from the frontend
-- Traits
-- Ready make email verification, forgot password. you just setting the SMTP (tutorial is included in the readme on private repo)
-- We need more AI ... in this package has example of using open ai api and the elevenlabs (text-to-speech services) the laravel is act as forwarder to keeps the secret key is secure.
+- Routing
 
+  Well route naming, grouping, versioning.
+
+- Handling Form Request (CRUD) from the frontend
+
+- Ready make email integration
+
+  Email verification, forgot password. you just setting the SMTP (tutorial is included in the readme on private repo)
+
+- We need more AI
+
+  In this package has example of using open ai api and the [elevenlabs](https://elevenlabs.io/?from=partnermurray4444) (text-to-speech services) the laravel is act as forwarder to keeps the secret key is secure.
+
+- [Google Tag Manager](https://marketingplatform.google.com/about/tag-manager/) 
+
+  Google tag manager is something that can manage and combines many analytics like google analytics, fb analytics, etc.
+
+  Usualy i just combine it with [Google Analytics](https://marketingplatform.google.com/about/analytics/)
 
 ### Security
 
@@ -111,8 +119,6 @@ I keep this package designed to be simple, less dependencies, designed for makin
 
 
 **Backend main dependencies:**
-
-- [php-open-source-saver/jwt-auth](https://github.com/PHP-Open-Source-Saver/jwt-auth)
 
 - [php-open-source-saver/jwt-auth](https://github.com/PHP-Open-Source-Saver/jwt-auth)
 
