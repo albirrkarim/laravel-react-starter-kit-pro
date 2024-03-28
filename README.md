@@ -11,18 +11,19 @@ Starter Kit / Boilerplate for Laravel 11 and React 18
 **Table Of Contents**
 
 - [A. Introduction](#a-introduction)
-- [B. Development Aspect](#b-development-aspect)
-- [C. Todo](#c-todo)
-- [D. Example Code](#d-code)
-- [E. Changelog](#e-changelog)
-- [F. Disclaimer & Warranty](#f-disclaimer--warranty)
-- [G. FAQ](#g-faq)
+- [B. Compare to Other Architecture](#b-compare-to-other-architecture)
+- [C. Development Aspect](#c-development-aspect)
+- [D. Todo](#d-todo)
+- [E. Example Code](#e-code)
+- [F. Changelog](#f-changelog)
+- [G. Disclaimer & Warranty](#g-disclaimer--warranty)
+- [H. FAQ](#h-faq)
 
 ## A. Introduction
 
 ### Problem
 
-Long time ago, i was new in field of full stack developer. My tech stack is [laravel](https://laravel.com) and [react js](https://react.dev), i know little bit of laravel and react. I don't know the best practice, and functions that react and laravel already have to do some logic. The steps i use to learn something: learn few -> just do it -> improve (best practice etc)
+Long time ago, i was new in field of full stack developer. I do few reseach which one should i use for my tech stack based on the popularity world wide. laravel is popular in php, react js is most popular in javascript, so i choose my tech stack is [laravel](https://laravel.com) and [react js](https://react.dev), i know little bit of laravel and react. I don't know the best practice, and functions that react and laravel already have to do some logic. The steps i use to learn something: learn few -> just do it -> improve (best practice etc)
 
 **How about reading the documentation?**
 
@@ -53,28 +54,33 @@ Maybe you are project manager that also want this thing, so you can easily expla
    The main purpose of [inertia](https://inertiajs.com/) is to provide SSR (Server Side Rendering) capability, interia js will provide the data (rendered in server without api call) and use the data to render in client using react.
 
     <details>
-      <summary>Show detail why i prefer using next js over inertia</summary>
+      <summary>Show detail why not use inertia</summary>
 
       <br/>
 
    **SSR Aspect**
+
    When you try to achive same SSR the [next js](https://nextjs.org) performs better, because they keep the html structure.
 
    Go to here [demo.inertiajs.com/](https://demo.inertiajs.com) and [nextjs.org](https://nextjs.org/) and do right click > view page source.
 
-   Inertia Demo
+   - Inertia Demo
 
    ![SSR inertia](/img/inertia.png)
 
-   Next js
+   - Next js
 
    ![SSR Next JS](/img/next_js.png)
 
-   You can see the inertia just supply the data. and not keeps the html structure
+   You can see the inertia just supply the data. and not keeps the html structure. The next js keeps the html structure, ofcourse the search engine bot will understand better of your page.
 
    **Testing Aspect**
 
    I just want simple testing for my app using with just what response of an API, if you use inertia, they handle the api request, so i can't make program as the middle man that can record the request and response data.
+
+   **Integration Aspect**
+
+   Many frontend templates, like in the [material ui template](https://mui.com/store) i using API as the bridge, between frontend and backend. of course using JWT.
 
     </details>
 
@@ -82,8 +88,7 @@ Maybe you are project manager that also want this thing, so you can easily expla
 
 2. Why not to use vue
 
-Go to [this article](https://www.techmagic.co/blog/reactjs-vs-angular-vs-vuejs) you will find why.
-
+    Go to [this article](https://www.techmagic.co/blog/reactjs-vs-angular-vs-vuejs) you will find why.
 
 ## C. Development Aspect
 
@@ -105,9 +110,9 @@ Provide best practice to make the data APIs.
 
   Email verification, forgot password. you just setting the SMTP (tutorial is included in the readme on private repo)
 
-- We need more AI
+- We need AI
 
-  In this package has example of using open ai api and the [elevenlabs](https://elevenlabs.io/?from=partnermurray4444) (text-to-speech services) the laravel is act as forwarder to keeps the secret key is secure.
+  In this package has example of using [open ai api](https://openai.com/product) and the [elevenlabs](https://elevenlabs.io/?from=partnermurray4444) (text-to-speech services) the [laravel (backend) is act as forwarder to keeps the secret key is secure](https://help.openai.com/en/articles/5112595-best-practices-for-api-key-safety).
 
 - [Google Tag Manager](https://marketingplatform.google.com/about/tag-manager/)
 
@@ -164,7 +169,7 @@ I keep this package designed to be simple, less dependencies, designed for makin
 
 ### Testing
 
-The purpose of testing is to make sure all function work correctly time after time and feature after feature implemented.
+The purpose of testing is to make sure all function work correctly time after time and feature after feature implemented. Testing is important!
 
 **Common Problem:**
 
