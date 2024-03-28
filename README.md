@@ -90,6 +90,9 @@ Maybe you are project manager that also want this thing, so you can easily expla
 
     Go to [this article](https://www.techmagic.co/blog/reactjs-vs-angular-vs-vuejs) you will find why.
 
+<br>
+<br>
+
 ## C. Development Aspect
 
 ### Philosophy
@@ -296,3 +299,9 @@ Yes it is, i
 </details> -->
 
 <br/>
+
+## Buy Now Save Your Time with a Cup of Coffee
+
+We need funding to make this starter kit always maintained. No worry, i make the price is cheap $5 USD monthly. its just price of a coffee.
+
+[![sponsor](https://github.com/albirrkarim/laravel-react-starter-kit-pro/assets/29292018/00e008ed-8d31-4b4c-a54d-a53ac62d9f91)](https://github.com/sponsors/albirrkarim)
