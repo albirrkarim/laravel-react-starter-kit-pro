@@ -46,7 +46,46 @@ Maybe you are project manager that also want this thing, so you can easily expla
 
 ![Project Foundation](/img/foundation.png)
 
-## B. Development Aspect
+## B. Compare to Other Architecture
+
+1. Why not to use laravel + inertia js + react js
+
+   The main purpose of [inertia](https://inertiajs.com/) is to provide SSR (Server Side Rendering) capability, interia js will provide the data (rendered in server without api call) and use the data to render in client using react.
+
+    <details>
+      <summary>Show detail why i prefer using next js over inertia</summary>
+
+      <br/>
+
+   **SSR Aspect**
+   When you try to achive same SSR the [next js](https://nextjs.org) performs better, because they keep the html structure.
+
+   Go to here [demo.inertiajs.com/](https://demo.inertiajs.com) and [nextjs.org](https://nextjs.org/) and do right click > view page source.
+
+   Inertia Demo
+
+   ![SSR inertia](/img/inertia.png)
+
+   Next js
+
+   ![SSR Next JS](/img/next_js.png)
+
+   You can see the inertia just supply the data. and not keeps the html structure
+
+   **Testing Aspect**
+
+   I just want simple testing for my app using with just what response of an API, if you use inertia, they handle the api request, so i can't make program as the middle man that can record the request and response data.
+
+    </details>
+
+<br/>
+
+2. Why not to use vue
+
+Go to [this article](https://www.techmagic.co/blog/reactjs-vs-angular-vs-vuejs) you will find why.
+
+
+## C. Development Aspect
 
 ### Philosophy
 
@@ -54,7 +93,7 @@ Make it simple, easy to learn and teach to your teams, real production case.
 
 ### Integration
 
-Provide best practice to make the data APIs. 
+Provide best practice to make the data APIs.
 
 - Routing
 
@@ -70,7 +109,7 @@ Provide best practice to make the data APIs.
 
   In this package has example of using open ai api and the [elevenlabs](https://elevenlabs.io/?from=partnermurray4444) (text-to-speech services) the laravel is act as forwarder to keeps the secret key is secure.
 
-- [Google Tag Manager](https://marketingplatform.google.com/about/tag-manager/) 
+- [Google Tag Manager](https://marketingplatform.google.com/about/tag-manager/)
 
   Google tag manager is something that can manage and combines many analytics like google analytics, fb analytics, etc.
 
@@ -111,7 +150,7 @@ I keep this package designed to be simple, less dependencies, designed for makin
 
   Apexcharts is a good choice for displaying your charts.
 
-- [Next js](https://nextjs.org) 
+- [Next js](https://nextjs.org)
 
   The our basic stack is laravel and react (client-side rendering). Recently i have project that must do hard competition in SEO. The Server Side Rendering (SSR) is must be used.
 
@@ -119,11 +158,9 @@ I keep this package designed to be simple, less dependencies, designed for makin
 
   We have starter kit with next js version
 
-
 **Backend main dependencies:**
 
 - [php-open-source-saver/jwt-auth](https://github.com/PHP-Open-Source-Saver/jwt-auth)
-
 
 ### Testing
 
@@ -149,51 +186,51 @@ In this package i decide to make testing based on the API output, Since, the fro
 
 2. Then, They can just doing many interactions click button, fill forms, etc, on app ui. and the test case is generated automatically.
 
-    <details>
-      <summary>Show generated test case</summary>
+   <details>
+     <summary>Show generated test case</summary>
 
-      <br/>
+     <br/>
 
-    ```js
-    [
-      {// Action 1
-        send: {
-          url:"/api/v1/some_service?q=data that some button send to laravel api service",
-          method:"GET",
-        }
-        received: "data that frontend received from laravel api service"
-      },
-      {// Action 2
-        send: {
-          url:"/api/v1/form",
-          method:"POST",
-          data:"data that some form send to laravel api service"
-        }
-        received:"data that frontend received from laravel api service"
-      },
-      // Other user interactions.
-    ]
-    ```
-    </details>
+   ```js
+   [
+     {// Action 1
+       send: {
+         url:"/api/v1/some_service?q=data that some button send to laravel api service",
+         method:"GET",
+       }
+       received: "data that frontend received from laravel api service"
+     },
+     {// Action 2
+       send: {
+         url:"/api/v1/form",
+         method:"POST",
+         data:"data that some form send to laravel api service"
+       }
+       received:"data that frontend received from laravel api service"
+     },
+     // Other user interactions.
+   ]
+   ```
+
+   </details>
 
 <br/>
 
-3. Then when we want to do testing using [jest library](https://jestjs.io/), My code will doing send request based on the test case. Just run the `npm run test` 
+3. Then when we want to do testing using [jest library](https://jestjs.io/), My code will doing send request based on the test case. Just run the `npm run test`
 
-    ```js
-    const res = // sent to server with information testcase.send
+   ```js
+   const res = // sent to server with information testcase.send
+     expect(res).tobe(testcase.send.received);
+   ```
 
-    expect(res).tobe(testcase.send.received);
-    ```
-
-    With that method and sequentially doing actions, so the test case will don't care about the data changes, in the database. but just give attention into the final output of the APIs.
+   With that method and sequentially doing actions, so the test case will don't care about the data changes, in the database. but just give attention into the final output of the APIs.
 
 4. The finall output of the APIs (response) with correct data and sequentially executed is representing your function inside laravel is working properly. Now the all features have been checked automatically and 100% working so the app ready to be deliver into production.
 
 <br>
 <br>
 
-## C. Todo
+## D. Todo
 
 - [ ] Make demo
 - [ ] Make video tutorial
@@ -201,7 +238,7 @@ In this package i decide to make testing based on the API output, Since, the fro
 <br>
 <br>
 
-## D. Code
+## E. Code
 
 In the demo website you will see only the frontend and api mocking (just to simulate api call).
 
@@ -210,7 +247,7 @@ Once you buy you will get inside my [private repo Laravel React Starter Kit PRO]
 <br>
 <br>
 
-## E. Changelog
+## F. Changelog
 
 Changelog contains information about new amazing feature, fix bug, breaking changes information, and what you should do when the version is update.
 
@@ -219,7 +256,7 @@ See [CHANGELOG.md](CHANGELOG.md)
 <br>
 <br>
 
-## F. Disclaimer & Warranty
+## G. Disclaimer & Warranty
 
 There's no refund, just cancel your subscription in github sponsors menu.
 
@@ -228,7 +265,7 @@ I love feedback from my customers. You can write on the issue tab so when i have
 <br>
 <br>
 
-## G. FAQ
+## H. FAQ
 
 **Why it's expensive? Why it's not opensource package?**
 
