@@ -6,6 +6,8 @@ Premium toolkit designed for full-stack web development, offering a streamlined 
 
 ## Docs for v1.0.0
 
+Starter Kit / Boilerplate for Laravel 11 and React 18
+
 **Table Of Contents**
 
 - [A. Introduction](#a-introduction)
@@ -127,8 +129,6 @@ I keep this package designed to be simple, less dependencies, designed for makin
 
 The purpose of testing is to make sure all function work correctly time after time and feature after feature implemented.
 
-![Automatic & Easy Way to Testing Laravel](/img/testing.png)
-
 **Common Problem:**
 
 The case is when you try to implement next feature (`X`) sometimes the existing feature (`Y`) is broken.
@@ -138,6 +138,10 @@ What you will do ? fix the `Y` feature, then checking manually all other feature
 Making automatic testing for laravel is high labour cost. Making test code for backend is difficult when it comes with many posibilities of data modification, how you can make test case for that? its so hard.
 
 In this package i decide to make testing based on the API output, Since, the frontend (react) and backend (laravel) is connected by API.
+
+**Automatic & Easy Way to Testing Laravel**
+
+![Automatic & Easy Way to Testing Laravel](/img/testing.png)
 
 **Then how you can making test case?**
 
