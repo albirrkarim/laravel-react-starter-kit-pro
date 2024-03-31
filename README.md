@@ -304,6 +304,8 @@ Yes it is, i
 
 We need funding to make this starter kit always maintained. No worry, i make the price is cheap $5 USD monthly. its just price of a coffee.
 
+I speak Indonesian (Native) and English.
+
 ### Options
 
 **Get in into private repo**
