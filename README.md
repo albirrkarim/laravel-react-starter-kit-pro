@@ -324,6 +324,8 @@ USD $200 / Month (until you unsubscribe)
 
 Monday - Friday (1 Hour a day)
 
+So in one month i teach your team 22 Hour
+
 ### The payment is using github sponsors:
 
 <a href="https://github.com/sponsors/albirrkarim" class="sponsor">
