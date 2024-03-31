@@ -304,4 +304,29 @@ Yes it is, i
 
 We need funding to make this starter kit always maintained. No worry, i make the price is cheap $5 USD monthly. its just price of a coffee.
 
-[![sponsor](https://github.com/albirrkarim/laravel-react-starter-kit-pro/assets/29292018/00e008ed-8d31-4b4c-a54d-a53ac62d9f91)](https://github.com/sponsors/albirrkarim)
+**Options:**
+
+**Get in into private repo**
+
+Just USD $5 / Month (until you unsubscribe) Include chat support via discord.
+
+**Support**
+
+I provide consultation via online meeting.
+
+USD $10 / Hour
+
+**Training Your Team**
+
+I provide training your team via online meeting.
+
+USD $200 / Month (until you unsubscribe)
+
+Monday - Friday (1 Hour a day)
+
+The payment is using github sponsors:
+
+<a href="https://github.com/sponsors/albirrkarim" class="sponsor">
+    <img src="https://github.com/albirrkarim/laravel-react-starter-kit-pro/assets/29292018/00e008ed-8d31-4b4c-a54d-a53ac62d9f91" style="max-width: 300px;">
+</a>
+
