@@ -1,6 +1,6 @@
-# Laravel React Starter Kit PRO
-
 ![Laravel React Starter Kit PRO Banner](/img/banner.png)
+
+# Laravel React Starter Kit PRO
 
 Premium toolkit designed for full-stack web development, offering a streamlined approach to integrating Laravel with React. It includes updated dependencies, best practices, and security implementations, making it suitable for developers at any level looking for a reliable project foundation.
 
