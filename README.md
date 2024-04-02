@@ -277,7 +277,7 @@ I love feedback from my customers. You can write on the issue tab so when i have
 
 **Why it's expensive? Why it's not opensource package?**
 
-We need funding to make this starter kit always maintained. No worry, i make the price is cheap $5 USD monthly. its just price of a coffee.
+We need funding to make this starter kit always maintained. No worry, i make the price is cheap $10 USD monthly. its just price of a coffee.
 
 **This package will update the dependencies every?**
 
