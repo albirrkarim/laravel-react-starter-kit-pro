@@ -240,8 +240,9 @@ In this package i decide to make testing based on the API output, Since, the fro
 
 ## D. Todo
 
-- [ ] Make demo
-- [ ] Make video tutorial
+- [ ] Make video demo
+- [ ] Make video tutorial for setup
+- [ ] Make video tutorial for the testing
 
 <br>
 <br>
