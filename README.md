@@ -302,23 +302,23 @@ Yes it is, i
 
 ## Buy Now Save Your Time with a Cup of Coffee
 
-We need funding to make this starter kit always maintained. No worry, i make the price is cheap $5 USD monthly. its just price of a coffee.
+We need funding to make this starter kit always maintained. No worry, i make the price is cheap $10 USD monthly. its just price of a coffee.
 
 I speak Indonesian (Native) and English.
 
 ### Options
 
-**Get in into private repo**
+#### Get in into private repo
 
-Just USD $5 / Month (until you unsubscribe) Include chat support via discord.
+Just USD $10 / Month (until you unsubscribe) Include chat support via discord.
 
-**Support**
+#### Support
 
 I provide consultation via online meeting.
 
 USD $10 / Hour
 
-**Training Your Team**
+#### Training Your Team
 
 I provide training your team via online meeting.
 
