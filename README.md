@@ -33,9 +33,11 @@ The laravel and react, have a lot of features and helper functions. and ofcourse
 
 #### Many ways you can do
 
-1. The first solution is use chat gpt, copy the code you have made and ask chat gpt to modify it into best practice. this method you will be open and close chat gpt offer time. (it wasting time)
+1. The first solution is use [chat gpt](https://chat.openai.com), copy the code you have made and ask chat gpt to modify it into best practice. this method you will be open and close chat gpt offer time. (it wasting time)
 
 2. Using Template and Boilerplate. I also use paid template. (ensuring they maintain the dependencies update). How about boilerplate? many boilerplate is just opensource repo. that is not well maintenance. outdated dependencies, outdated integration method. etc.
+
+3. Using [Starter Kit From Official Laravel](https://laravel.com/docs/11.x/starter-kits)
 
 #### Finally
 
@@ -51,7 +53,7 @@ Maybe you are project manager that also want this thing, so you can easily expla
 
 1. Why not to use laravel + inertia js + react js
 
-   The main purpose of [inertia](https://inertiajs.com/) is to provide SSR (Server Side Rendering) capability, interia js will provide the data (rendered in server without api call) and use the data to render in client using react.
+   The main purpose of [inertia](https://inertiajs.com/) is to provide [SSR (Server Side Rendering)](https://www.searchenginejournal.com/client-side-vs-server-side/482574) capability, interia js will provide the data (rendered in server without api call) and use the data to render in client using react.
 
     <details>
       <summary>Show detail why not use inertia</summary>
@@ -160,7 +162,7 @@ I keep this package designed to be simple, less dependencies, designed for makin
 
 - [Next js](https://nextjs.org)
 
-  The our basic stack is laravel and react (client-side rendering). Recently i have project that must do hard competition in SEO. The Server Side Rendering (SSR) is must be used.
+  The our basic stack is laravel and react ([client-side rendering](https://www.searchenginejournal.com/client-side-vs-server-side/482574/)). Recently i have project that must do hard competition in [SEO](https://www.searchenginejournal.com/client-side-vs-server-side/482574/). The Server Side Rendering (SSR) is must be used.
 
   So i combine the next js(offer SSR capability), react js, laravel. also this is exist draw back. your hosting must support for node js hosting, make sure you check the hosting specification.
 
@@ -231,7 +233,7 @@ In this package i decide to make testing based on the API output, Since, the fro
      expect(res).tobe(testcase.send.received);
    ```
 
-   With that method and sequentially doing actions, so the test case will don't care about the data changes, in the database. but just give attention into the final output of the APIs.
+   With that method and sequentially doing actions, so the test case will don't care about the data changes, in the database. They just give attention into the final output of the APIs.
 
 4. The finall output of the APIs (response) with correct data and sequentially executed is representing your function inside laravel is working properly. Now the all features have been checked automatically and 100% working so the app ready to be deliver into production.
 
@@ -338,34 +340,33 @@ So in one month i teach your team 22 Hour
 ## This is the solution for you who are looking for
 
 - react laravel
-- laravel react
-- react with laravel
 - laravel and react
-- react and laravel
 - laravel with react
 - laravel backend react frontend
-- laravel nextjs
 - laravel with react js
 - laravel react admin panel
 - use react in laravel
 - laravel react js
 - add react to laravel
-- easy way to testing laravel
-- laravel react starter kit 
 - reusable react components
 - laravel react project template
 - react template that integrate with laravel backend
-- spa laravel react
+- SPA laravel react
 - laravel react vite
-- react next js and laravel a practical guide
-- next js and laravel integration 
 - React Laravel Integration Kit
 - react js with laravel backend kit
 - laravel-react project github
 - react with laravel project example
+- Laravel React Project Foundation
 - laravel react starter kit
 - laravel react boilerplate
 - React Laravel Integration
 - React Components for Laravel
 - Seamless Web Development Kit
 - Laravel API with React Frontend
+- Laravel 11 Vite React Tailwind Material UI Boilerplate
+- Easy way to testing laravel
+- Easy API Testing Laravel
+- laravel nextjs
+- react next js and laravel a practical guide
+- next js and laravel integration
