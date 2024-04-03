@@ -23,7 +23,7 @@ Starter Kit / Boilerplate for Laravel 11 and React 18
 
 ### Problem
 
-Long time ago, i was new in field of full stack developer. I do few reseach which one should i use for my tech stack based on the popularity world wide. laravel is popular in php, react js is most popular in javascript, so i choose my tech stack is [laravel](https://laravel.com) and [react js](https://react.dev), i know little bit of laravel and react. I don't know the best practice, and functions that react and laravel already have to do some logic. The steps i use to learn something: learn few -> just do it -> improve (best practice etc)
+Long time ago, i was new in field of full stack developer. I do few reseach which one should i use for my tech stack based on the popularity world wide. [laravel is most popular in backend](https://statisticsanddata.org/data/most-popular-backend-frameworks-2012-2023/), [react js is most popular in javascript](https://www.simform.com/blog/best-frontend-frameworks/), so i choose my tech stack is [laravel](https://laravel.com) and [react js](https://react.dev), i know little bit of laravel and react. I don't know the best practice, and functions that react and laravel already have to do some logic. The steps i use to learn something: learn few -> just do it -> improve (best practice etc)
 
 **How about reading the documentation?**
 
@@ -33,11 +33,18 @@ The laravel and react, have a lot of features and helper functions. and ofcourse
 
 #### Many ways you can do
 
-1. The first solution is use [chat gpt](https://chat.openai.com), copy the code you have made and ask chat gpt to modify it into best practice. this method you will be open and close chat gpt offer time. (it wasting time)
+1. The first solution is use Code AI Assistant
 
-2. Using Template and Boilerplate. I also use paid template. (ensuring they maintain the dependencies update). How about boilerplate? many boilerplate is just opensource repo. that is not well maintenance. outdated dependencies, outdated integration method. etc.
+    Using [chat gpt](https://chat.openai.com), copy the code you have made and ask chat gpt to modify it into best practice. this method you will be open and close chat gpt offer time. (it wasting time). The gpt3.5 is more often give me wrong code, so i do pay for subscription to the chat gpt plus with gpt4 and they solve about 90% code logic problem that i face.
 
-3. Using [Starter Kit From Official Laravel](https://laravel.com/docs/11.x/starter-kits)
+    Another option is you using [Github Copilot](https://github.com/features/copilot) its free for github pro user / student. They act as chat gpt that can edit your code directly from your [vs code](https://code.visualstudio.com). Still they cant prepare all the basic code and integration, they can just do one by one code modify (per file). you still need to prepare manually.
+
+2. Using Template and Boilerplate.
+    I also use paid template. (ensuring they maintain the dependencies update). How about boilerplate? many boilerplate is just opensource repo. that is not well maintenance. outdated dependencies, outdated integration method. etc.
+
+3. Using [Starter Kit From Official Laravel](https://laravel.com/docs/11.x/starter-kits). 
+
+    They provide, good starting point, but still its too basic for real production.
 
 #### Finally
 
