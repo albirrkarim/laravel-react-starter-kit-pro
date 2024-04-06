@@ -140,6 +140,15 @@ Provide some example for authentications and securing laravel.
 - Throthling (rate limiter)
 - Fingerprint login
 - Pin login
+- Protect Using Bot
+
+Sometime when we just have shared hosting, we can’t do many things. such protecting the backdoor.
+
+The gambling website admin is creating a bot to spread the file index.html that contain link (backlink) into their website.
+
+So we must fight their bot agains our bot protector.
+
+![Anti Slot](./img/anti-slot.png)
 
 ### Maintenance
 
