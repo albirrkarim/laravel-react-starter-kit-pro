@@ -136,17 +136,17 @@ Provide best practice to make the data APIs.
 
 Provide some example for authentications and securing laravel.
 
-- Using JWT (Json Web Token)
-- Throthling (rate limiter)
+#### Sign In
 - Fingerprint login
 - Pin login
-- Protect Using Bot
 
-Sometime when we just have shared hosting, we can’t do many things. such protecting the backdoor.
+#### APIs
+- Using JWT ([Json Web Token](https://github.com/PHP-Open-Source-Saver/jwt-auth))
+- Throthling (rate limiter)
 
-The gambling website admin is creating a bot to spread the file index.html that contain link (backlink) into their website.
+#### Protect Using Bot
 
-So we must fight their bot agains our bot protector.
+Sometime when we just have shared hosting, we can’t do many things. such protecting the server backdoor. The gambling website admin is creating a bot to spread the file index.html that contain link (backlink) into their website. So we must fight their bot agains our bot protector.
 
 ![Anti Slot](./img/anti-slot.png)
 
@@ -333,19 +333,13 @@ Just USD $10 / Month (until you unsubscribe) Include chat support via discord.
 
 #### Support
 
-I provide consultation via online meeting.
-
-USD $10 / Hour
+USD $10 / Hour. I provide consultation via online meeting. 
 
 #### Training Your Team
 
-I provide training your team via online meeting.
-
 USD $200 / Month (until you unsubscribe)
 
-Monday - Friday (1 Hour a day)
-
-So in one month i teach your team 22 Hour
+I provide training your team via online meeting. Monday - Friday (1 Hour a day). So in one month i teach your team 22 Hour
 
 ### The payment is using github sponsors:
 
