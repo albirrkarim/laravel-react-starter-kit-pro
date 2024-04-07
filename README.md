@@ -329,19 +329,19 @@ I speak Indonesian (Native) and English.
 
 ### Options
 
-#### Get in into private repo
+Here's a structured way to present your pricing options based on your offerings:
 
-Just USD $10 / Month (until you unsubscribe) Include chat support via discord.
+#### 1. **Private Repository Access**: 
+   - **Price**: $10 per month (subscription-based, cancel anytime)
+   - **Features**: Access to a private GitHub repository, includes chat support via Discord for any queries or troubleshooting.
 
-#### Support
+#### 2. **Support**:
+   - **Price**: $10 per hour
+   - **Service**: Provides one-on-one consultations via online meetings, tailored to your specific needs and challenges.
 
-USD $10 / Hour. I provide consultation via online meeting. 
-
-#### Training Your Team
-
-USD $200 / Month (until you unsubscribe)
-
-I provide training your team via online meeting. Monday - Friday (1 Hour a day). So in one month i teach your team 22 Hour
+#### 3. **Team Training**:
+   - **Price**: $200 per month (subscription-based, cancel anytime)
+   - **Details**: Offers daily training sessions for your team, Monday through Friday, one hour per day, totaling 22 hours per month. The training is delivered via online meetings and covers full-stack development using Laravel and React.
 
 ### The payment is using github sponsors:
 
