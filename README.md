@@ -340,6 +340,10 @@ You code in vscode and you will easily understand our custom components in vscod
   
 Yes, this starter kit is not a frontend template. this is the project foundation. [see the ilustration](#finally). this project is a good starting point and solid foundation. Where you can integrate with other Components Packs and templates.
 
+We have made good example folders. that you can put your existing code files or templates.
+
+![Good Folder Structures](/img/folders.png)
+
 </details>
 
 <br/>
@@ -354,6 +358,8 @@ When we talk about integration. we must match all aspect in common integration.
 **Folder Structure**
 
 Our starter-kit have a good folder structure that make your existing project can easily embeded.
+
+![Good Folder Structures](/img/folders.png)
 
 **Dependencies**
 
