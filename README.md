@@ -2,7 +2,7 @@
 
 # Laravel React Starter Kit PRO
 
-Premium toolkit designed for full-stack web development, offering a streamlined approach to integrating Laravel with React. It includes updated dependencies, best practices, and security implementations, making it suitable for developers at any level looking for a reliable project foundation.
+A solid and efficient project foundation for laravel and react full stack development.
 
 ## Docs for v1.0.0
 
