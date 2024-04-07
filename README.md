@@ -294,21 +294,78 @@ I love feedback from my customers. You can write on the issue tab so when i have
 <br>
 <br>
 
+Your FAQ section is clear and straightforward, but it can be further improved to enhance clarity and professionalism. Here's a revised version:
+
 ## H. FAQ
 
-**Why it's expensive? Why it's not opensource package?**
 
-We need funding to make this starter kit always maintained. No worry, i make the price is cheap $10 USD monthly. its just price of a coffee.
+<details>
+  <summary>Why is the pricing is high? Why isn't this an open-source package?</summary>
 
-**This package will update the dependencies every?**
+  <br/>
 
-Monthly
+Maintaining, updating, and supporting the Laravel React Starter Kit requires ongoing resources. We've priced it at just $10 USD per month, affordable as a cup of coffee, to ensure it remains sustainable and high-quality.
 
-**Just ask me what question you will ask**
+</details>
 
-Send me message via:
+<br/>
 
-Discord: [albirrkarim](https://discord.com/channels/@me/884043164908929034)
+<details>
+  <summary>How often are dependencies updated?</summary>
+
+  <br/>
+
+We update dependencies monthly to ensure the kit remains current with the latest technology standards.
+</details>
+
+<br/>
+
+<details>
+  <summary>Written in Typescript?</summary>
+
+  <br/>
+  
+Yes, the frontend component written in typescript. the typescript provide good quality code. for example then you hover your mouse into some components, vs code will show some popup that tells you what is that, examples, and more. so you dont have to look into long documentation separately. 
+
+You code in vscode and you will easily understand our custom components in vscode also.
+</details>
+
+<br/>
+
+<details>
+  <summary>Can I integrate this starter kit with existing projects?</summary>
+
+  <br/>
+
+When we talk about integration. we must match all aspect in common integration.
+
+**Folder Structure**
+
+Our starter-kit have a good folder structure that make your existing project can easily embeded.
+
+**Dependencies**
+
+The common problem is the dependencies, maybe you have old dependencies and you don't know how to upgrade your deps, don't worry i will tell you how it can done easily with my approach, just chat me on discord.
+
+</details>
+
+<br/>
+
+<details>
+  <summary>What kind of support is included with my subscription?</summary>
+
+  <br/>
+
+You can ask me via discord, about some development problems and i will show you the ways you can do (based my own approach).
+
+</details>
+
+
+<br/>
+
+**Have more questions?**
+
+Feel free to ask any additional questions via Discord: [albirrkarim](https://discord.com/channels/@me/884043164908929034).
 
 <!-- <details>
   <summary></summary>
@@ -321,27 +378,25 @@ Yes it is, i
 
 <br/>
 
-## Buy Now Save Your Time with a Cup of Coffee
+## Invest in Efficiency with Just the Cost of a Coffee
 
-We need funding to make this starter kit always maintained. No worry, i make the price is cheap $10 USD monthly. its just price of a coffee.
+Maintaining, updating, and give supports for Laravel React Starter Kit requires continuous work, which is why we offer accessible subscription options—priced like your daily coffee, but with lasting benefits.
 
-I speak Indonesian (Native) and English.
+### Subscription Options
 
-### Options
+**1. Private Repository Access**:
+   - **Price**: $10/month (cancel anytime)
+   - **Features**: Unlock access to a private GitHub repository and receive chat support via Discord.
 
-Here's a structured way to present your pricing options based on your offerings:
+**2. Dedicated Support**:
+   - **Price**: $10/hour
+   - **Service**: Benefit from personalized, one-on-one consultation sessions via online meetings, tailored to address your specific project challenges.
 
-#### 1. **Private Repository Access**: 
-   - **Price**: $10 per month (subscription-based, cancel anytime)
-   - **Features**: Access to a private GitHub repository, includes chat support via Discord for any queries or troubleshooting.
+**3. Team Training Package**:
+   - **Price**: $200/month (cancel anytime)
+   - **Details**: Engage in comprehensive training sessions for your team—22 hours per month over daily one-hour meetings from Monday to Friday, focusing on full-stack development with Laravel and React.
 
-#### 2. **Support**:
-   - **Price**: $10 per hour
-   - **Service**: Provides one-on-one consultations via online meetings, tailored to your specific needs and challenges.
-
-#### 3. **Team Training**:
-   - **Price**: $200 per month (subscription-based, cancel anytime)
-   - **Details**: Offers daily training sessions for your team, Monday through Friday, one hour per day, totaling 22 hours per month. The training is delivered via online meetings and covers full-stack development using Laravel and React.
+Each option is designed to provide significant value and enhance your project's success. Choose the plan that best fits your needs and start building smarter and faster today.
 
 ### The payment is using github sponsors:
 
