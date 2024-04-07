@@ -35,16 +35,16 @@ The laravel and react, have a lot of features and helper functions. and ofcourse
 
 1. The first solution is use Code AI Assistant
 
-    Using [chat gpt](https://chat.openai.com), copy the code you have made and ask chat gpt to modify it into best practice. this method you will be open and close chat gpt offer time. (it wasting time). The gpt3.5 is more often give me wrong code, so i do pay for subscription to the chat gpt plus with gpt4 and they solve about 90% code logic problem that i face.
+   Using [chat gpt](https://chat.openai.com), copy the code you have made and ask chat gpt to modify it into best practice. this method you will be open and close chat gpt offer time. (it wasting time). The gpt3.5 is more often give me wrong code, so i do pay for subscription to the chat gpt plus with gpt4 and they solve about 90% code logic problem that i face.
 
-    Another option is you using [Github Copilot](https://github.com/features/copilot) its free for github pro user / student. They act as chat gpt that can edit your code directly from your [vs code](https://code.visualstudio.com). Still they cant prepare all the basic code and integration, they can just do one by one code modify (per file). you still need to prepare manually.
+   Another option is you using [Github Copilot](https://github.com/features/copilot) its free for github pro user / student. They act as chat gpt that can edit your code directly from your [vs code](https://code.visualstudio.com). Still they cant prepare all the basic code and integration, they can just do one by one code modify (per file). you still need to prepare manually.
 
 2. Using Template and Boilerplate.
-    I also use paid template. (ensuring they maintain the dependencies update). How about boilerplate? many boilerplate is just opensource repo. that is not well maintenance. outdated dependencies, outdated integration method. etc.
+   I also use paid template. (ensuring they maintain the dependencies update). How about boilerplate? many boilerplate is just opensource repo. that is not well maintenance. outdated dependencies, outdated integration method. etc.
 
-3. Using [Starter Kit From Official Laravel](https://laravel.com/docs/11.x/starter-kits). 
+3. Using [Starter Kit From Official Laravel](https://laravel.com/docs/11.x/starter-kits).
 
-    They provide, good starting point, but still its too basic for real production.
+   They provide, good starting point, but still its too basic for real production.
 
 #### Finally
 
@@ -97,7 +97,7 @@ Maybe you are project manager that also want this thing, so you can easily expla
 
 2. Why not to use vue
 
-    Go to [this article](https://www.techmagic.co/blog/reactjs-vs-angular-vs-vuejs) you will find why.
+   Go to [this article](https://www.techmagic.co/blog/reactjs-vs-angular-vs-vuejs) you will find why.
 
 <br>
 <br>
@@ -139,10 +139,12 @@ Provide best practice to make the data APIs.
 Provide some example for authentications and securing laravel.
 
 #### Sign In
+
 - Fingerprint login
 - Pin login
 
 #### APIs
+
 - Using JWT ([Json Web Token](https://github.com/PHP-Open-Source-Saver/jwt-auth))
 - Throthling (rate limiter)
 
@@ -294,10 +296,7 @@ I love feedback from my customers. You can write on the issue tab so when i have
 <br>
 <br>
 
-Your FAQ section is clear and straightforward, but it can be further improved to enhance clarity and professionalism. Here's a revised version:
-
 ## H. FAQ
-
 
 <details>
   <summary>Why is the pricing is high? Why isn't this an open-source package?</summary>
@@ -316,6 +315,7 @@ Maintaining, updating, and supporting the Laravel React Starter Kit requires ong
   <br/>
 
 We update dependencies monthly to ensure the kit remains current with the latest technology standards.
+
 </details>
 
 <br/>
@@ -325,9 +325,21 @@ We update dependencies monthly to ensure the kit remains current with the latest
 
   <br/>
   
-Yes, the frontend component written in typescript. the typescript provide good quality code. for example then you hover your mouse into some components, vs code will show some popup that tells you what is that, examples, and more. so you dont have to look into long documentation separately. 
+Yes, the frontend component written in [typescript](https://www.typescriptlang.org). the typescript provide good quality code. for example then you hover your mouse into some components, vs code will show some popup that tells you what is that, examples, and more. so you dont have to look into long documentation separately.
 
 You code in vscode and you will easily understand our custom components in vscode also.
+
+</details>
+
+<br/>
+
+<details>
+  <summary>Can i use other fancy UI templates?</summary>
+
+  <br/>
+  
+Yes, this starter kit is not a frontend template. this is the project foundation. [see the ilustration](#finally). this project is a good starting point and solid foundation. Where you can integrate with other Components Packs and templates.
+
 </details>
 
 <br/>
@@ -360,7 +372,6 @@ You can ask me via discord, about some development problems and i will show you 
 
 </details>
 
-
 <br/>
 
 **Have more questions?**
@@ -382,19 +393,24 @@ Yes it is, i
 
 Maintaining, updating, and give supports for Laravel React Starter Kit requires continuous work, which is why we offer accessible subscription options—priced like your daily coffee, but with lasting benefits.
 
-### Subscription Options
+When you choose to online meeting with me, i support for indonesian (im from here) and english.
 
-**1. Private Repository Access**:
-   - **Price**: $10/month (cancel anytime)
-   - **Features**: Unlock access to a private GitHub repository and receive chat support via Discord.
+### Pricing Options
 
-**2. Dedicated Support**:
-   - **Price**: $10/hour
-   - **Service**: Benefit from personalized, one-on-one consultation sessions via online meetings, tailored to address your specific project challenges.
+#### **1. Private Repository Access**:
 
-**3. Team Training Package**:
-   - **Price**: $200/month (cancel anytime)
-   - **Details**: Engage in comprehensive training sessions for your team—22 hours per month over daily one-hour meetings from Monday to Friday, focusing on full-stack development with Laravel and React.
+- **Price**: $10/month (cancel anytime)
+- **Features**: Unlock access to a private GitHub repository and receive chat support via Discord.
+
+#### **2. Dedicated Support**:
+
+- **Price**: $10/hour
+- **Service**: Benefit from personalized, one-on-one consultation sessions via online meetings, tailored to address your specific project challenges.
+
+#### **3. Team Training Package**:
+
+- **Price**: $200/month (cancel anytime)
+- **Details**: Engage in comprehensive training sessions for your team—22 hours per month over daily one-hour meetings from Monday to Friday, focusing on full-stack development with Laravel and React.
 
 Each option is designed to provide significant value and enhance your project's success. Choose the plan that best fits your needs and start building smarter and faster today.
 
@@ -403,6 +419,9 @@ Each option is designed to provide significant value and enhance your project's 
 <a href="https://github.com/sponsors/albirrkarim" class="sponsor">
     <img src="https://github.com/albirrkarim/laravel-react-starter-kit-pro/assets/29292018/00e008ed-8d31-4b4c-a54d-a53ac62d9f91" width="400em">
 </a>
+
+<br/>
+<br/>
 
 ## This is the solution for you who are looking for
 
