@@ -23,7 +23,7 @@ Starter Kit / Boilerplate for Laravel 11 and React 18
 
 ### Problem
 
-Long time ago, i was new in field of full stack developer. I do few reseach which one should i use for my tech stack based on the popularity world wide. [laravel is most popular in backend](https://statisticsanddata.org/data/most-popular-backend-frameworks-2012-2023/), [react js is most popular in javascript](https://www.simform.com/blog/best-frontend-frameworks/), so i choose my tech stack is [laravel](https://laravel.com) and [react js](https://react.dev), i know little bit of laravel and react. I don't know the best practice, and functions that react and laravel already have to do some logic. The steps i use to learn something: learn few -> just do it -> improve (best practice etc)
+Long time ago, i was new in field of full stack developer. I do few reseach which one should i use for my tech stack based on the popularity world wide. [laravel is most popular in backend 2023](https://statisticsanddata.org/data/most-popular-backend-frameworks-2012-2023/) and still most popular in [2024](https://www.mindinventory.com/blog/best-backend-frameworks/), [react js is most popular in javascript](https://www.simform.com/blog/best-frontend-frameworks/), so i choose my tech stack is [laravel](https://laravel.com) and [react js](https://react.dev), i know little bit of laravel and react. I don't know the best practice, and functions that react and laravel already have to do some logic. The steps i use to learn something: learn few -> just do it -> improve (best practice etc)
 
 **How about reading the documentation?**
 
