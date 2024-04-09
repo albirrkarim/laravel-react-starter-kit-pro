@@ -108,7 +108,7 @@ Maybe you are project manager that also want this thing, so you can easily expla
 
 ### Philosophy
 
-Make it simple, easy to learn and teach to your teams, real production case.
+Make it simple, easy to learn and teach to your teams, real production case, and efficient labour cost.
 
 ### Integration
 
