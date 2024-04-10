@@ -50,13 +50,15 @@ The laravel and react, have a lot of features and helper functions. and ofcourse
 
 ![Overview](/img/overview.png)
 
-![Folders](/img/folders.png)
-
 So i made this starter kit to ensure the the dependencies is maintained, integration is seamless, also the security, everthing just work, documented, and have system overview.
 
 Maybe you are project manager that also want this thing, so you can easily explain to your team about your project and the tech stack do you use using our overview.
 
 ![Project Foundation](/img/foundation.png)
+
+Folder structures:
+
+![Folders](/img/folders.png)
 
 ## B. Compare to Other Architecture
 
